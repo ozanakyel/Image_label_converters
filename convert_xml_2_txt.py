@@ -1,3 +1,12 @@
+"""
+##      crop.py
+##      version 1
+##      python --version : 3.6.13
+##      emailremoved@ ( ozan.akyel54@gmail.com )
+##      copyright@ : ( https://github.com/bjornstenger/xml2yolo )
+
+"""
+
 # -*- coding: utf-8 -*-
 
 from xml.dom import minidom
