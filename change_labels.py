@@ -1,9 +1,20 @@
+"""
+##      crop.py
+##      version 1
+##      python --version : 3.6.13
+##      cv2.__version__ : 4.5.4-dev
+##      pandas.__version__ : 0.25.3
+##      tqdm.__version__ : 4.62.3
+##      numpy.__version__ : 1.17.3
+##      emailremoved@ ( ozan.akyel54@gmail.com )
+##      @author : Ozan AKYEL, Mehmet OKUYAR, A. Mucahit TARAKCI
+
+"""
 import pandas as pd
 import glob
 from tqdm import tqdm
 import numpy as np
 import os
-import path
 
 #===== .txt yolu girilecek ==================
 txt_path = "C:/Users/MEHMET/Desktop/veri" 
