@@ -1,3 +1,14 @@
+"""
+##      crop.py
+##      version 1
+##      python --version : 3.6.13
+##      re.__version__ : 2.2.1
+##      PIL.__version__ : 8.3.2
+##      emailremoved@ ( ozan.akyel54@gmail.com )
+##      copyright@ : ( https://github.com/JPM-Tech/Object-Detection/tree/main/Scripts/converters )
+
+"""
+
 import os
 import re
 from PIL import Image
