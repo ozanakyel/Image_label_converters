@@ -1,5 +1,5 @@
 """
-##      crop.py
+##      conver_xml_2_txt.py
 ##      version 1
 ##      python --version : 3.6.13
 ##      emailremoved@ ( ozan.akyel54@gmail.com )
