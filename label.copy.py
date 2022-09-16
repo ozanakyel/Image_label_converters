@@ -35,6 +35,6 @@ for i in os.listdir(saving_path):
         print(f)
         f.write(icerik)
         f.close
-        print("işlem tamam")
+        print("Done...")
     else:
-        print(f"{i} degistirilmek istenen türde dosya değil")
+        print(f"{i} not incorrect type of item")
