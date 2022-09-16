@@ -24,8 +24,8 @@ else:
     print("Directory " , saving_path ,  " already exists")
 
 file = open(yolo_label_path, "r+")  # referance label is reading
-icerik = file.read()
-print(icerik)
+content = file.read()
+print(content)
 
 for i in os.listdir(saving_path):
     if i.endswith(".jpg"):
@@ -33,8 +33,8 @@ for i in os.listdir(saving_path):
         name_txt = name + ".txt" 
         f= open(os.path.join(saving_path, name_txt),"w+")
         print(f)
-        f.write(icerik)
+        f.write(content)
         f.close
         print("Done...")
     else:
-        print(f"{i} not incorrect type of item")
+        print(f"{i} not correct type of item")
